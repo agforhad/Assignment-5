@@ -1,0 +1,29 @@
+.input_btn{
+    text-align: center;
+    
+}
+#foodName{
+	display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+#foodName img{
+	width: 200px;
+}
+#container{
+	display: none;
+    background-color: chocolate;
+    border-radius: 10px;
+    text-align: center;
+}
+.meal-name{
+	font-size: 30px;
+    color: rgb(0, 9, 128);
+}
+#foodDetail img{
+    width: 200px;
+}
+.display{
+    background-color: darkgoldenrod;
+    text-align: center;
+}
